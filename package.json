@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify browser.js -o solidity.js",
-    "release": "rm -rf package-lock.json && npm publish --registry 'npm.bsd.education:38091'"
+    "release": "rm -rf package-lock.json && npm publish --registry '//npm.bsd.education:38091'"
   },
   "keywords": [
     "solidity",
